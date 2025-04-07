@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Clubs - Association of Computer Engineering Students</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/aceslogo.png" rel="icon">
+  <link href="assets/img/aceslogoapple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Mentor
+  * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="courses-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">ACES</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" >Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html"class="active">Clubs</a></li>
+          <li><a href="trainers.html">Faculties</a></li>
+          <li><a href="pricing.html">Events</a></li>
+          <li><a href="events.html">Help</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Clubs</h1>
+              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Clubs</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+  <!-- Courses Section -->
+      <div class="club-container">
+        <div class="card-grid">
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-front">
+                    <h3>MLSA Chapter</h3>
+                    <p>Microsoft Learn Students Ambassador Club at DYPCET</p>
+                    <p>3 Members</p>
+                    <button>View Club</button>
+                </div>
+                <div class="card-back">
+                    <h4>About MLSA</h4>
+                    <p>A community-driven club focused on learning Microsoft technologies.</p>
+                </div>
+            </div>
+            
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-front">
+                    <h3>GSSOC</h3>
+                    <p>An Open source club for Beginners</p>
+                    <p>0 Members</p>
+                    <button>View Club</button>
+                </div>
+                <div class="card-back">
+                    <h4>About GSSOC</h4>
+                    <p>Open-source contributions for beginner developers.</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-front">
+                    <h3>GDSC</h3>
+                    <p>A college club created by Google</p>
+                    <p>0 Members</p>
+                    <button>View Club</button>
+                </div>
+                <div class="card-back">
+                    <h4>About GDSC</h4>
+                    <p>Helping students build solutions using Google technologies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+    <!-- Courses Section1 -->
+    <div class="club-container">
+      <div class="card-grid">
+          <div class="card" onclick="flipCard(this)">
+              <div class="card-front">
+                  <h3>MLSA Chapter</h3>
+                  <p>Microsoft Learn Students Ambassador Club at DYPCET</p>
+                  <p>3 Members</p>
+                  <button>View Club</button>
+              </div>
+              <div class="card-back">
+                  <h4>About MLSA</h4>
+                  <p>A community-driven club focused on learning Microsoft technologies.</p>
+              </div>
+          </div>
+          
+          <div class="card" onclick="flipCard(this)">
+              <div class="card-front">
+                  <h3>GSSOC</h3>
+                  <p>An Open source club for Beginners</p>
+                  <p>0 Members</p>
+                  <button>View Club</button>
+              </div>
+              <div class="card-back">
+                  <h4>About GSSOC</h4>
+                  <p>Open-source contributions for beginner developers.</p>
+              </div>
+          </div>
+
+          <div class="card" onclick="flipCard(this)">
+              <div class="card-front">
+                  <h3>GDSC</h3>
+                  <p>A college club created by Google</p>
+                  <p>0 Members</p>
+                  <button>View Club</button>
+              </div>
+              <div class="card-back">
+                  <h4>About GDSC</h4>
+                  <p>Helping students build solutions using Google technologies.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script>
+      function flipCard(card) {
+          card.classList.toggle('flipped');
+      }
+  </script>
+  <!-- Courses Section2-->
+  <div class="club-container">
+    <div class="card-grid">
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-front">
+                <h3>MLSA Chapter</h3>
+                <p>Microsoft Learn Students Ambassador Club at DYPCET</p>
+                <p>3 Members</p>
+                <button>View Club</button>
+            </div>
+            <div class="card-back">
+                <h4>About MLSA</h4>
+                <p>A community-driven club focused on learning Microsoft technologies.</p>
+            </div>
+        </div>
+        
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-front">
+                <h3>GSSOC</h3>
+                <p>An Open source club for Beginners</p>
+                <p>0 Members</p>
+                <button>View Club</button>
+            </div>
+            <div class="card-back">
+                <h4>About GSSOC</h4>
+                <p>Open-source contributions for beginner developers.</p>
+            </div>
+        </div>
+
+        <div class="card" onclick="flipCard(this)">
+            <div class="card-front">
+                <h3>GDSC</h3>
+                <p>A college club created by Google</p>
+                <p>0 Members</p>
+                <button>View Club</button>
+            </div>
+            <div class="card-back">
+                <h4>About GDSC</h4>
+                <p>Helping students build solutions using Google technologies.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function flipCard(card) {
+        card.classList.toggle('flipped');
+    }
+</script>
+<!-- Courses Section3-->
+<div class="club-container">
+  <div class="card-grid">
+      <div class="card" onclick="flipCard(this)">
+          <div class="card-front">
+              <h3>MLSA Chapter</h3>
+              <p>Microsoft Learn Students Ambassador Club at DYPCET</p>
+              <p>3 Members</p>
+              <button>View Club</button>
+          </div>
+          <div class="card-back">
+              <h4>About MLSA</h4>
+              <p>A community-driven club focused on learning Microsoft technologies.</p>
+          </div>
+      </div>
+      
+      <div class="card" onclick="flipCard(this)">
+          <div class="card-front">
+              <h3>GSSOC</h3>
+              <p>An Open source club for Beginners</p>
+              <p>0 Members</p>
+              <button>View Club</button>
+          </div>
+          <div class="card-back">
+              <h4>About GSSOC</h4>
+              <p>Open-source contributions for beginner developers.</p>
+          </div>
+      </div>
+
+      <div class="card" onclick="flipCard(this)">
+          <div class="card-front">
+              <h3>GDSC</h3>
+              <p>A college club created by Google</p>
+              <p>0 Members</p>
+              <button>View Club</button>
+          </div>
+          <div class="card-back">
+              <h4>About GDSC</h4>
+              <p>Helping students build solutions using Google technologies.</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+  function flipCard(card) {
+      card.classList.toggle('flipped');
+  }
+</script>
+<!-- Courses Section 4-->
+ 
+<footer>
+  <div class="footer-container">
+      <div class="footer-col">
+          <h3>ACES</h3>
+          <p>JSPM's Rajarshi Shahu College of Engineering<br>Tathawade, Pune-411033</p>
+          <p>Phone: +91 88064 34421</p>
+          <p>Email: info@example.com</p>
+          <div class="social-icons">
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+              <a href="#"><i class="fab fa-x-facebook"></i></a>
+              <a href="#"><i class="fab fa-x-instagram"></i></a>
+              <a href="#"><i class="fab fa-x-linkedin"></i></a>
+          </div>
+      </div>
+      <div class="footer-col">
+          <h3>Useful Links</h3>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+      </div>
+      <div class="footer-col">
+          <h3>Our Services</h3>
+          <a href="#">Web Design</a>
+          <a href="#">Web Development</a>
+          <a href="#">Product Management</a>
+          <a href="#">Marketing</a>
+          <a href="#">Graphic Design</a>
+      </div>
+  </div>
+  
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
